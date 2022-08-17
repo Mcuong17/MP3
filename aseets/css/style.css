@@ -1,0 +1,308 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.font-medium {
+  font-size: 14px;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.clear {
+  clear: both;
+}
+
+#main {
+
+}
+
+#header {
+  height: 45px;
+  background-color: #fff;
+  position: relative;
+}
+
+#header .menu-top {
+  display: inline-block;
+}
+
+#header ul {
+ 
+}
+
+#header ul li {
+  display: inline-block;
+
+}
+
+.nav > li > a {
+  display: inline-block;
+  color: #000;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 0 16px;
+  line-height: 45px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+
+.nav li:hover a {
+  color: #2daaed;
+}
+
+#header .accout-box {
+  float: right;
+}
+
+.accout-box .signin,
+.accout-box .login {
+  line-height: 45px;
+  padding: 0 16px;
+  text-decoration: none;
+}
+
+.accout-box .login {
+  color: #999;
+}
+
+.accout-box .signin {
+  background-color: #2daaed;
+  color: #fff;
+  border-radius: 5px;
+  margin-right: 16px;
+}
+
+.accout-box .login:hover,
+.accout-box .signin:hover {
+  opacity: 0.8;
+}
+
+.search-box input{
+  border: none;
+  background-color: #ccc;
+}
+
+#slider {
+  
+}
+
+.slider-bgr {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  
+}
+
+#container {
+  min-height: 500px;
+  margin: 24px 16px;
+ 
+}
+
+#container .nav-left {
+  width: 55%;
+  height: 100vh;
+  margin: 8px;
+  background-color: #fff;
+  float: left;
+}
+
+/* Nội dung nav-left */
+#container .left-content {
+  margin-bottom: 80px;
+}
+
+#container .content-heading {
+  padding: 8px 0;
+  color: #2daaed;
+  font-size: 24px;
+}
+
+#container .content-body {
+  display: flex;
+  justify-content: space-around;
+}
+
+#container .content-body-box {
+  width: 120px;
+  height: 120px;
+  
+}
+
+
+.content-body-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content-body-box p {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.list-navi li:hover,
+.music-info p:hover,
+.content-body-box:hover p {
+  color: #2daaed;
+  cursor: pointer;
+}
+
+.content-body-box video {
+  width: 150%;
+  height: 120%;
+  
+}
+/* Nội dung nav-right */
+
+#container .nav-right {
+  width: 40%;
+  height: 150px;
+  margin: 8px;
+  /* background-color: #999; */
+  float: right;
+}
+
+#container .nav-right {
+  
+}
+
+#container .content-right {
+
+}
+
+#container .right-heading {
+  padding: 8px 0;
+  color: #2daaed;
+  font-size: 24px;
+}
+
+#container .btn-tab-select {
+  height: 32px;
+  display: inline-block;
+  margin: 8px 4px;
+}
+
+#container .btn-tab-select a {
+  padding: 0 16px;
+  line-height: 32px;
+  font-size: 16px;
+  text-decoration: none;
+  color: #000;
+  background-color: #ccc;
+  border-radius: 16px;
+  display: inline-block;
+}
+
+#container .btn-tab-select a:hover {
+  background-color:#e74c3c;
+  color: #fff;
+}
+
+.list-music {
+  list-style: none;
+}
+
+.list-number {
+  margin-right: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.music {
+  display: flex;
+  margin: 16px 0;
+}
+
+.music-info {
+  display: flex;
+}
+
+.music-info p {
+  font-size: 13px;
+  padding: 0 10px;
+}
+
+.music-info audio {
+  width: 200px;
+  height: 20px;
+  
+}
+
+.theme-img {
+  margin: 8px 0;
+}
+
+#footer {
+  min-height: 270px;
+  background-color: #ccc;
+  opacity: 0.8;
+  margin-top: 300px;
+  padding: 24px 16px;
+  width: 100%;
+}
+
+.navigation {
+  width: calc(100% / 3);
+  float: left;
+  
+}
+
+.navigation h3 {
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.list-navi {
+  list-style: none;
+  
+}
+
+.list-navi .navi {
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.list-navi .navi i {
+  font-size: 14px;
+}
+
+.icon-footer {
+  margin: 8px 0;
+}
+
+.icon-footer a {
+  font-size: 24px;
+  color: #000;
+  text-decoration: none;
+  padding: 0 16px;
+}
+
+
+.icon-footer a:hover {
+  color: #2daaed;
+}
+
+.logo-img {
+  width: 108px;
+  height: 32px;
+  margin-bottom: 8px;
+}
+
+.logo-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
